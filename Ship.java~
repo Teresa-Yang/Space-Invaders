@@ -1,0 +1,9 @@
+public class Ship{
+  
+  int xPos = 250;
+  int speed = 0;
+  public void move()
+  {
+    xPos+=speed;
+  }
+}
